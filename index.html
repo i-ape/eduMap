@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js'></script>
+  <script src='https://d3js.org/d3.v5.min.js'></script>
+  <link rel="stylesheet" href="style.css" />
+  <title id="title">Choropleth Map</title>
+  <h2 id="title">Uni edu is not what you need in the next century </h2>
+  <h3 id="description">everything is online for free, lvl up loser</h3>
+</head>
+
+<body>
+  <div id="tooltip">
+
+  </div>
+  <svg id='canvas'>
+  </svg>
+  <svg id="legend" width="1000" height="50">
+    <g>
+      <rect x="0" y="0" width="50" height="50" fill='rgb(244, 12, 53)'></rect>
+      <text x="60" y="28" fill="white">maybe smart</text>
+    </g>
+    <g>
+      <rect x="250" y="0" width="50" height="50" fill="rgb(241, 153, 96)"></rect>
+      <text x="310" y="28" fill="white">maybe smart</text>
+    </g>
+    <g>
+      <rect x="500" y="0" width="50" height="50" fill="rgb(151, 242, 147)"></rect>
+      <text x="560" y="28" fill="white">maybe smart</text>
+    </g>
+    <g>
+      <rect x="750" y="0" width="50" height="50" fill="rgb(22, 250, 86)"></rect>
+      <text x="810" y="28" fill="white">maybe smart</text>
+    </g>
+  </svg>
+</body>
+<script defer src='script.js'></script>
+<script defer src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+
+</html>
