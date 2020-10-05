@@ -1,2 +1,2 @@
 # eduMap
-## this ia map divided by level of education
+## this is map divided by level of education
