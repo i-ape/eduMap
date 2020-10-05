@@ -53,7 +53,8 @@ let drawMap = () => {
         return item['fips'] === id
       })
 
-      tooltip.text(county['fips'] + ' - ' + county['area_name'] + ', ' + county['state'] + ' : ' + county['bachelorsOrHigher'] + '%')
+      tooltip.text(county['fips'] + ' - ' + county['area_name'] +
+        ', ' + county['state'] + ' : ' + county['bachelorsOrHigher'] + '%')
       tooltip.attr('data-education', county['bachelorsOrHigher'])
     })
 
